@@ -36,7 +36,9 @@ keyboards/bastardkb/charybdis/4x6/keymaps/zachary/
 
 ![Charybdis keymap](docs/keymap.svg)
 
-Regenerate it with:
+The diagram uses the KLE-style physical geometry template from
+[`zzkt/charybdis`](https://github.com/zzkt/charybdis), with this keymap’s base
+labels overlaid. Regenerate it with:
 
 ```sh
 python3 scripts/draw_keymap.py
