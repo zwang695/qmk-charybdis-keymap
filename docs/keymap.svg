@@ -1,584 +1,864 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1840" viewBox="0 0 1500 1840">
-<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#172033} .title{font-size:24px;font-weight:700} .label{font-size:14px;font-weight:600} .key{font-size:13px} .muted{fill:#64748b}</style>
-<rect width="100%" height="100%" fill="#f8fafc"/>
-<text class="title" x="28" y="48">Base</text>
-<rect x="28" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="90" text-anchor="middle">DRG_TOG</text>
-<rect x="127" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="90" text-anchor="middle">DPI-</text>
-<rect x="226" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="90" text-anchor="middle">DPI+</text>
-<rect x="325" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="90" text-anchor="middle">BTN2</text>
-<rect x="424" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="90" text-anchor="middle">BTN1</text>
-<rect x="523" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="90" text-anchor="middle">Cmd-C</text>
-<rect x="808" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="90" text-anchor="middle">Cmd-V</text>
-<rect x="907" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="90" text-anchor="middle">Left</text>
-<rect x="1006" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="90" text-anchor="middle">Right</text>
-<rect x="1105" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="90" text-anchor="middle">+</text>
-<rect x="1204" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="90" text-anchor="middle">-</text>
-<rect x="1303" y="64" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="90" text-anchor="middle">NO</text>
-<rect x="28" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="139" text-anchor="middle">Tab</text>
-<rect x="127" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="139" text-anchor="middle">Q</text>
-<rect x="226" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="139" text-anchor="middle">W</text>
-<rect x="325" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="139" text-anchor="middle">E</text>
-<rect x="424" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="139" text-anchor="middle">R</text>
-<rect x="523" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="139" text-anchor="middle">T</text>
-<rect x="808" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="139" text-anchor="middle">Y</text>
-<rect x="907" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="139" text-anchor="middle">U</text>
-<rect x="1006" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="139" text-anchor="middle">I</text>
-<rect x="1105" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="139" text-anchor="middle">O</text>
-<rect x="1204" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="139" text-anchor="middle">P</text>
-<rect x="1303" y="113" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="139" text-anchor="middle">\</text>
-<rect x="28" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="188" text-anchor="middle">Esc</text>
-<rect x="127" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="188" text-anchor="middle">A</text>
-<rect x="226" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="188" text-anchor="middle">S</text>
-<rect x="325" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="188" text-anchor="middle">D</text>
-<rect x="424" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="188" text-anchor="middle">F</text>
-<rect x="523" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="188" text-anchor="middle">G</text>
-<rect x="808" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="188" text-anchor="middle">H</text>
-<rect x="907" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="188" text-anchor="middle">J</text>
-<rect x="1006" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="188" text-anchor="middle">K</text>
-<rect x="1105" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="188" text-anchor="middle">L</text>
-<rect x="1204" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="188" text-anchor="middle">;</text>
-<rect x="1303" y="162" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="188" text-anchor="middle">&#x27;</text>
-<rect x="28" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="237" text-anchor="middle">Magic</text>
-<rect x="127" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="237" text-anchor="middle">Z</text>
-<rect x="226" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="237" text-anchor="middle">X</text>
-<rect x="325" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="237" text-anchor="middle">C</text>
-<rect x="424" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="237" text-anchor="middle">V</text>
-<rect x="523" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="237" text-anchor="middle">B</text>
-<rect x="808" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="237" text-anchor="middle">N</text>
-<rect x="907" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="237" text-anchor="middle">M</text>
-<rect x="1006" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="237" text-anchor="middle">,</text>
-<rect x="1105" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="237" text-anchor="middle">.</text>
-<rect x="1204" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="237" text-anchor="middle">/</text>
-<rect x="1303" y="211" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="237" text-anchor="middle">CAPS</text>
-<rect x="285" y="249" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(-30 331.0 270.0)"/>
-<text class="key" x="331.0" y="275" text-anchor="middle" transform="rotate(-30 331.0 270.0)">BSPC</text>
-<rect x="390" y="283" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(-30 436.0 304.0)"/>
-<text class="key" x="436.0" y="309" text-anchor="middle" transform="rotate(-30 436.0 304.0)">SFT</text>
-<rect x="495" y="317" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(-30 541.0 338.0)"/>
-<text class="key" x="541.0" y="343" text-anchor="middle" transform="rotate(-30 541.0 338.0)">SYM</text>
-<rect x="930" y="283" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(30 976.0 304.0)"/>
-<text class="key" x="976.0" y="309" text-anchor="middle" transform="rotate(30 976.0 304.0)">NUM</text>
-<rect x="1035" y="249" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(30 1081.0 270.0)"/>
-<text class="key" x="1081.0" y="275" text-anchor="middle" transform="rotate(30 1081.0 270.0)">ENT</text>
-<rect x="340" y="349" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(-30 386.0 370.0)"/>
-<text class="key" x="386.0" y="375" text-anchor="middle" transform="rotate(-30 386.0 370.0)">NO</text>
-<rect x="445" y="383" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(-30 491.0 404.0)"/>
-<text class="key" x="491.0" y="409" text-anchor="middle" transform="rotate(-30 491.0 404.0)">SPACE</text>
-<rect x="930" y="383" width="92" height="42" rx="7" fill="#d9e8ff" stroke="#94a3b8" transform="rotate(30 976.0 404.0)"/>
-<text class="key" x="976.0" y="409" text-anchor="middle" transform="rotate(30 976.0 404.0)">LLCK</text>
-<circle cx="1150" cy="359" r="34" fill="#cbd5e1" stroke="#64748b"/>
-<text class="label muted" x="1150" y="364" text-anchor="middle">trackball</text>
-<text class="label muted" x="28" y="372">Left half ←   •   → Right half</text>
-<text class="title" x="28" y="408">Symbol</text>
-<rect x="28" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="450" text-anchor="middle">TRNS</text>
-<rect x="127" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="450" text-anchor="middle">`</text>
-<rect x="226" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="450" text-anchor="middle">&lt;</text>
-<rect x="325" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="450" text-anchor="middle">&gt;</text>
-<rect x="424" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="450" text-anchor="middle">-</text>
-<rect x="523" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="450" text-anchor="middle">|</text>
-<rect x="808" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="450" text-anchor="middle">^</text>
-<rect x="907" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="450" text-anchor="middle">{</text>
-<rect x="1006" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="450" text-anchor="middle">}</text>
-<rect x="1105" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="450" text-anchor="middle">$</text>
-<rect x="1204" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="450" text-anchor="middle">ARROW</text>
-<rect x="1303" y="424" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="450" text-anchor="middle">TRNS</text>
-<rect x="28" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="127" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="226" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="325" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="424" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="523" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="808" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="907" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="1006" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="1105" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="1204" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="1303" y="473" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="499" text-anchor="middle">TRNS</text>
-<rect x="28" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="548" text-anchor="middle">TRNS</text>
-<rect x="127" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="548" text-anchor="middle">!</text>
-<rect x="226" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="548" text-anchor="middle">*</text>
-<rect x="325" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="548" text-anchor="middle">/</text>
-<rect x="424" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="548" text-anchor="middle">=</text>
-<rect x="523" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="548" text-anchor="middle">&amp;</text>
-<rect x="808" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="548" text-anchor="middle">#</text>
-<rect x="907" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="548" text-anchor="middle">(</text>
-<rect x="1006" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="548" text-anchor="middle">)</text>
-<rect x="1105" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="548" text-anchor="middle">;</text>
-<rect x="1204" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="548" text-anchor="middle">&quot;</text>
-<rect x="1303" y="522" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="548" text-anchor="middle">TRNS</text>
-<rect x="28" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="597" text-anchor="middle">TRNS</text>
-<rect x="127" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="597" text-anchor="middle">~</text>
-<rect x="226" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="597" text-anchor="middle">+</text>
-<rect x="325" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="597" text-anchor="middle">[</text>
-<rect x="424" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="597" text-anchor="middle">]</text>
-<rect x="523" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="597" text-anchor="middle">%</text>
-<rect x="808" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="597" text-anchor="middle">@</text>
-<rect x="907" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="597" text-anchor="middle">:</text>
-<rect x="1006" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="597" text-anchor="middle">&#x27;</text>
-<rect x="1105" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="597" text-anchor="middle">_</text>
-<rect x="1204" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="597" text-anchor="middle">?</text>
-<rect x="1303" y="571" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="597" text-anchor="middle">TRNS</text>
-<rect x="285" y="609" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(-30 331.0 630.0)"/>
-<text class="key" x="331.0" y="635" text-anchor="middle" transform="rotate(-30 331.0 630.0)">TRNS</text>
-<rect x="390" y="643" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(-30 436.0 664.0)"/>
-<text class="key" x="436.0" y="669" text-anchor="middle" transform="rotate(-30 436.0 664.0)">TRNS</text>
-<rect x="495" y="677" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(-30 541.0 698.0)"/>
-<text class="key" x="541.0" y="703" text-anchor="middle" transform="rotate(-30 541.0 698.0)">TRNS</text>
-<rect x="930" y="643" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(30 976.0 664.0)"/>
-<text class="key" x="976.0" y="669" text-anchor="middle" transform="rotate(30 976.0 664.0)">TRNS</text>
-<rect x="1035" y="609" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(30 1081.0 630.0)"/>
-<text class="key" x="1081.0" y="635" text-anchor="middle" transform="rotate(30 1081.0 630.0)">TRNS</text>
-<rect x="340" y="709" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(-30 386.0 730.0)"/>
-<text class="key" x="386.0" y="735" text-anchor="middle" transform="rotate(-30 386.0 730.0)">TRNS</text>
-<rect x="445" y="743" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(-30 491.0 764.0)"/>
-<text class="key" x="491.0" y="769" text-anchor="middle" transform="rotate(-30 491.0 764.0)">TRNS</text>
-<rect x="930" y="743" width="92" height="42" rx="7" fill="#e6dcff" stroke="#94a3b8" transform="rotate(30 976.0 764.0)"/>
-<text class="key" x="976.0" y="769" text-anchor="middle" transform="rotate(30 976.0 764.0)">TRNS</text>
-<circle cx="1150" cy="719" r="34" fill="#cbd5e1" stroke="#64748b"/>
-<text class="label muted" x="1150" y="724" text-anchor="middle">trackball</text>
-<text class="label muted" x="28" y="732">Left half ←   •   → Right half</text>
-<text class="title" x="28" y="768">Cursor</text>
-<rect x="28" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="810" text-anchor="middle">TRNS</text>
-<rect x="127" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="810" text-anchor="middle">TRNS</text>
-<rect x="226" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="810" text-anchor="middle">Cmd-R</text>
-<rect x="325" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="810" text-anchor="middle">PrevTab</text>
-<rect x="424" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="810" text-anchor="middle">NextTab</text>
-<rect x="523" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="810" text-anchor="middle">Cmd-[</text>
-<rect x="808" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="810" text-anchor="middle">Cmd-]</text>
-<rect x="907" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="810" text-anchor="middle">PgUp</text>
-<rect x="1006" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="810" text-anchor="middle">Home</text>
-<rect x="1105" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="810" text-anchor="middle">Up</text>
-<rect x="1204" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="810" text-anchor="middle">End</text>
-<rect x="1303" y="784" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="810" text-anchor="middle">Search</text>
-<rect x="28" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="127" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="226" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="325" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="424" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="523" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="808" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="859" text-anchor="middle">PgDn</text>
-<rect x="907" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="859" text-anchor="middle">Left</text>
-<rect x="1006" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="859" text-anchor="middle">Down</text>
-<rect x="1105" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="859" text-anchor="middle">Right</text>
-<rect x="1204" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="1303" y="833" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="859" text-anchor="middle">TRNS</text>
-<rect x="28" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="908" text-anchor="middle">TRNS</text>
-<rect x="127" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="908" text-anchor="middle">LCTL</text>
-<rect x="226" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="908" text-anchor="middle">LALT</text>
-<rect x="325" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="908" text-anchor="middle">LGUI</text>
-<rect x="424" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="908" text-anchor="middle">LSFT</text>
-<rect x="523" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="908" text-anchor="middle">Click</text>
-<rect x="808" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="908" text-anchor="middle">TRNS</text>
-<rect x="907" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="908" text-anchor="middle">Left</text>
-<rect x="1006" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="908" text-anchor="middle">Down</text>
-<rect x="1105" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="908" text-anchor="middle">Right</text>
-<rect x="1204" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="908" text-anchor="middle">TRNS</text>
-<rect x="1303" y="882" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="908" text-anchor="middle">TRNS</text>
-<rect x="28" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="957" text-anchor="middle">TRNS</text>
-<rect x="127" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="957" text-anchor="middle">Undo</text>
-<rect x="226" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="957" text-anchor="middle">Redo</text>
-<rect x="325" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="957" text-anchor="middle">Cmd-C</text>
-<rect x="424" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="957" text-anchor="middle">Cmd-V</text>
-<rect x="523" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="957" text-anchor="middle">Redo</text>
-<rect x="808" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="957" text-anchor="middle">Cmd-L</text>
-<rect x="907" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="957" text-anchor="middle">SelBack</text>
-<rect x="1006" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="957" text-anchor="middle">SelWord</text>
-<rect x="1105" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="957" text-anchor="middle">SelLine</text>
-<rect x="1204" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="957" text-anchor="middle">TRNS</text>
-<rect x="1303" y="931" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="957" text-anchor="middle">TRNS</text>
-<rect x="285" y="969" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(-30 331.0 990.0)"/>
-<text class="key" x="331.0" y="995" text-anchor="middle" transform="rotate(-30 331.0 990.0)">TRNS</text>
-<rect x="390" y="1003" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(-30 436.0 1024.0)"/>
-<text class="key" x="436.0" y="1029" text-anchor="middle" transform="rotate(-30 436.0 1024.0)">TRNS</text>
-<rect x="495" y="1037" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(-30 541.0 1058.0)"/>
-<text class="key" x="541.0" y="1063" text-anchor="middle" transform="rotate(-30 541.0 1058.0)">TRNS</text>
-<rect x="930" y="1003" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(30 976.0 1024.0)"/>
-<text class="key" x="976.0" y="1029" text-anchor="middle" transform="rotate(30 976.0 1024.0)">TRNS</text>
-<rect x="1035" y="969" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(30 1081.0 990.0)"/>
-<text class="key" x="1081.0" y="995" text-anchor="middle" transform="rotate(30 1081.0 990.0)">TRNS</text>
-<rect x="340" y="1069" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(-30 386.0 1090.0)"/>
-<text class="key" x="386.0" y="1095" text-anchor="middle" transform="rotate(-30 386.0 1090.0)">TRNS</text>
-<rect x="445" y="1103" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(-30 491.0 1124.0)"/>
-<text class="key" x="491.0" y="1129" text-anchor="middle" transform="rotate(-30 491.0 1124.0)">Cmd-Tab</text>
-<rect x="930" y="1103" width="92" height="42" rx="7" fill="#d9f2df" stroke="#94a3b8" transform="rotate(30 976.0 1124.0)"/>
-<text class="key" x="976.0" y="1129" text-anchor="middle" transform="rotate(30 976.0 1124.0)">LLCK</text>
-<circle cx="1150" cy="1079" r="34" fill="#cbd5e1" stroke="#64748b"/>
-<text class="label muted" x="1150" y="1084" text-anchor="middle">trackball</text>
-<text class="label muted" x="28" y="1092">Left half ←   •   → Right half</text>
-<text class="title" x="28" y="1128">Number</text>
-<rect x="28" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1170" text-anchor="middle">Esc</text>
-<rect x="127" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1170" text-anchor="middle">F1</text>
-<rect x="226" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1170" text-anchor="middle">F2</text>
-<rect x="325" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1170" text-anchor="middle">F3</text>
-<rect x="424" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1170" text-anchor="middle">F4</text>
-<rect x="523" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1170" text-anchor="middle">F5</text>
-<rect x="808" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1170" text-anchor="middle">F6</text>
-<rect x="907" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1170" text-anchor="middle">F7</text>
-<rect x="1006" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1170" text-anchor="middle">F8</text>
-<rect x="1105" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1170" text-anchor="middle">F9</text>
-<rect x="1204" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1170" text-anchor="middle">F10</text>
-<rect x="1303" y="1144" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1170" text-anchor="middle">F11</text>
-<rect x="28" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1219" text-anchor="middle">TRNS</text>
-<rect x="127" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1219" text-anchor="middle">/</text>
-<rect x="226" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1219" text-anchor="middle">9</text>
-<rect x="325" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1219" text-anchor="middle">8</text>
-<rect x="424" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1219" text-anchor="middle">7</text>
-<rect x="523" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1219" text-anchor="middle">*</text>
-<rect x="808" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1219" text-anchor="middle">TRNS</text>
-<rect x="907" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1219" text-anchor="middle">TRNS</text>
-<rect x="1006" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1219" text-anchor="middle">[</text>
-<rect x="1105" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1219" text-anchor="middle">]</text>
-<rect x="1204" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1219" text-anchor="middle">TRNS</text>
-<rect x="1303" y="1193" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1219" text-anchor="middle">F12</text>
-<rect x="28" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1268" text-anchor="middle">TRNS</text>
-<rect x="127" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1268" text-anchor="middle">-</text>
-<rect x="226" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1268" text-anchor="middle">3</text>
-<rect x="325" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1268" text-anchor="middle">2</text>
-<rect x="424" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1268" text-anchor="middle">1</text>
-<rect x="523" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1268" text-anchor="middle">+</text>
-<rect x="808" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1268" text-anchor="middle">TRNS</text>
-<rect x="907" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1268" text-anchor="middle">RSFT</text>
-<rect x="1006" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1268" text-anchor="middle">RGUI</text>
-<rect x="1105" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1268" text-anchor="middle">RALT</text>
-<rect x="1204" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1268" text-anchor="middle">RCTL</text>
-<rect x="1303" y="1242" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1268" text-anchor="middle">TRNS</text>
-<rect x="28" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1317" text-anchor="middle">TRNS</text>
-<rect x="127" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1317" text-anchor="middle">X</text>
-<rect x="226" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1317" text-anchor="middle">6</text>
-<rect x="325" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1317" text-anchor="middle">5</text>
-<rect x="424" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1317" text-anchor="middle">4</text>
-<rect x="523" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1317" text-anchor="middle">%</text>
-<rect x="808" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1317" text-anchor="middle">TRNS</text>
-<rect x="907" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1317" text-anchor="middle">TRNS</text>
-<rect x="1006" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1317" text-anchor="middle">,</text>
-<rect x="1105" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1317" text-anchor="middle">.</text>
-<rect x="1204" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1317" text-anchor="middle">TRNS</text>
-<rect x="1303" y="1291" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1317" text-anchor="middle">TRNS</text>
-<rect x="285" y="1329" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(-30 331.0 1350.0)"/>
-<text class="key" x="331.0" y="1355" text-anchor="middle" transform="rotate(-30 331.0 1350.0)">0</text>
-<rect x="390" y="1363" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(-30 436.0 1384.0)"/>
-<text class="key" x="436.0" y="1389" text-anchor="middle" transform="rotate(-30 436.0 1384.0)">TRNS</text>
-<rect x="495" y="1397" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(-30 541.0 1418.0)"/>
-<text class="key" x="541.0" y="1423" text-anchor="middle" transform="rotate(-30 541.0 1418.0)">TRNS</text>
-<rect x="930" y="1363" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(30 976.0 1384.0)"/>
-<text class="key" x="976.0" y="1389" text-anchor="middle" transform="rotate(30 976.0 1384.0)">TRNS</text>
-<rect x="1035" y="1329" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(30 1081.0 1350.0)"/>
-<text class="key" x="1081.0" y="1355" text-anchor="middle" transform="rotate(30 1081.0 1350.0)">TRNS</text>
-<rect x="340" y="1429" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(-30 386.0 1450.0)"/>
-<text class="key" x="386.0" y="1455" text-anchor="middle" transform="rotate(-30 386.0 1450.0)">TRNS</text>
-<rect x="445" y="1463" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(-30 491.0 1484.0)"/>
-<text class="key" x="491.0" y="1489" text-anchor="middle" transform="rotate(-30 491.0 1484.0)">LLCK</text>
-<rect x="930" y="1463" width="92" height="42" rx="7" fill="#fff0c9" stroke="#94a3b8" transform="rotate(30 976.0 1484.0)"/>
-<text class="key" x="976.0" y="1489" text-anchor="middle" transform="rotate(30 976.0 1484.0)">TRNS</text>
-<circle cx="1150" cy="1439" r="34" fill="#cbd5e1" stroke="#64748b"/>
-<text class="label muted" x="1150" y="1444" text-anchor="middle">trackball</text>
-<text class="label muted" x="28" y="1452">Left half ←   •   → Right half</text>
-<text class="title" x="28" y="1488">Magic</text>
-<rect x="28" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1530" text-anchor="middle">TRNS</text>
-<rect x="127" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1530" text-anchor="middle">RM_TOG</text>
-<rect x="226" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1530" text-anchor="middle">QK_KB</text>
-<rect x="325" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1530" text-anchor="middle">RM_NEXT</text>
-<rect x="424" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1530" text-anchor="middle">RGB</text>
-<rect x="523" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1530" text-anchor="middle">RM_VALD</text>
-<rect x="808" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1530" text-anchor="middle">RM_VALU</text>
-<rect x="907" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1530" text-anchor="middle">Red</text>
-<rect x="1006" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1530" text-anchor="middle">Green</text>
-<rect x="1105" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1530" text-anchor="middle">Blue</text>
-<rect x="1204" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1530" text-anchor="middle">Purple</text>
-<rect x="1303" y="1504" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1530" text-anchor="middle">TRNS</text>
-<rect x="28" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="127" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1579" text-anchor="middle">PrevTrack</text>
-<rect x="226" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1579" text-anchor="middle">NextTrack</text>
-<rect x="325" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1579" text-anchor="middle">Stop</text>
-<rect x="424" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1579" text-anchor="middle">Play</text>
-<rect x="523" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="808" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="907" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="1006" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="1105" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="1204" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="1303" y="1553" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1579" text-anchor="middle">TRNS</text>
-<rect x="28" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="127" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1628" text-anchor="middle">Vol-</text>
-<rect x="226" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1628" text-anchor="middle">Vol+</text>
-<rect x="325" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1628" text-anchor="middle">Mute</text>
-<rect x="424" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="523" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="808" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="907" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="1006" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="1105" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="1204" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="1303" y="1602" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1628" text-anchor="middle">TRNS</text>
-<rect x="28" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="74.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="127" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="173.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="226" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="272.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="325" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="371.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="424" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="470.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="523" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="569.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="808" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="854.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="907" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="953.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="1006" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1052.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="1105" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1151.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="1204" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1250.0" y="1677" text-anchor="middle">TRNS</text>
-<rect x="1303" y="1651" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8"/>
-<text class="key" x="1349.0" y="1677" text-anchor="middle">Boot</text>
-<rect x="285" y="1689" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(-30 331.0 1710.0)"/>
-<text class="key" x="331.0" y="1715" text-anchor="middle" transform="rotate(-30 331.0 1710.0)">TRNS</text>
-<rect x="390" y="1723" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(-30 436.0 1744.0)"/>
-<text class="key" x="436.0" y="1749" text-anchor="middle" transform="rotate(-30 436.0 1744.0)">TRNS</text>
-<rect x="495" y="1757" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(-30 541.0 1778.0)"/>
-<text class="key" x="541.0" y="1783" text-anchor="middle" transform="rotate(-30 541.0 1778.0)">TRNS</text>
-<rect x="930" y="1723" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(30 976.0 1744.0)"/>
-<text class="key" x="976.0" y="1749" text-anchor="middle" transform="rotate(30 976.0 1744.0)">TRNS</text>
-<rect x="1035" y="1689" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(30 1081.0 1710.0)"/>
-<text class="key" x="1081.0" y="1715" text-anchor="middle" transform="rotate(30 1081.0 1710.0)">TRNS</text>
-<rect x="340" y="1789" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(-30 386.0 1810.0)"/>
-<text class="key" x="386.0" y="1815" text-anchor="middle" transform="rotate(-30 386.0 1810.0)">TRNS</text>
-<rect x="445" y="1823" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(-30 491.0 1844.0)"/>
-<text class="key" x="491.0" y="1849" text-anchor="middle" transform="rotate(-30 491.0 1844.0)">TRNS</text>
-<rect x="930" y="1823" width="92" height="42" rx="7" fill="#ffe0e8" stroke="#94a3b8" transform="rotate(30 976.0 1844.0)"/>
-<text class="key" x="976.0" y="1849" text-anchor="middle" transform="rotate(30 976.0 1844.0)">TRNS</text>
-<circle cx="1150" cy="1799" r="34" fill="#cbd5e1" stroke="#64748b"/>
-<text class="label muted" x="1150" y="1804" text-anchor="middle">trackball</text>
-<text class="label muted" x="28" y="1812">Left half ←   •   → Right half</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="867" height="2315" viewBox="0 0 867 2315">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#172033} .title{font-size:18px;font-weight:700} .label{font-size:11px;font-weight:600;fill:#64748b} .key{font-size:9px;font-weight:600} .outer{fill:#c8cdd3;stroke:#111;stroke-width:1.5} .inner{stroke:rgba(0,0,0,.15);stroke-width:1}</style>
+<rect width="100%" height="100%" fill="#eef0f2"/>
+<text class="title" x="28" y="44">Base</text>
+<g><rect class="outer" x="28" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="54.0" y="108.25" text-anchor="middle">DRG_TOG</text></g>
+<g><rect class="outer" x="82" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="108.0" y="108.25" text-anchor="middle">DPI-</text></g>
+<g><rect class="outer" x="136" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="162.0" y="108.25" text-anchor="middle">DPI+</text></g>
+<g><rect class="outer" x="190" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="216.0" y="108.25" text-anchor="middle">BTN2</text></g>
+<g><rect class="outer" x="244" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="270.0" y="108.25" text-anchor="middle">BTN1</text></g>
+<g><rect class="outer" x="298" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="324.0" y="108.25" text-anchor="middle">Cmd-C</text></g>
+<g><rect class="outer" x="514" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="540.0" y="108.25" text-anchor="middle">Cmd-V</text></g>
+<g><rect class="outer" x="568" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="594.0" y="108.25" text-anchor="middle">Left</text></g>
+<g><rect class="outer" x="622" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="648.0" y="108.25" text-anchor="middle">Right</text></g>
+<g><rect class="outer" x="676" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="702.0" y="108.25" text-anchor="middle">+</text></g>
+<g><rect class="outer" x="730" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="756.0" y="108.25" text-anchor="middle">-</text></g>
+<g><rect class="outer" x="784" y="81.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="84.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="810.0" y="108.25" text-anchor="middle">NO</text></g>
+<g><rect class="outer" x="28" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="54.0" y="162.25" text-anchor="middle">Tab</text></g>
+<g><rect class="outer" x="82" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="108.0" y="162.25" text-anchor="middle">Q</text></g>
+<g><rect class="outer" x="136" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="162.0" y="162.25" text-anchor="middle">W</text></g>
+<g><rect class="outer" x="190" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="216.0" y="162.25" text-anchor="middle">E</text></g>
+<g><rect class="outer" x="244" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="270.0" y="162.25" text-anchor="middle">R</text></g>
+<g><rect class="outer" x="298" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="324.0" y="162.25" text-anchor="middle">T</text></g>
+<g><rect class="outer" x="514" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="540.0" y="162.25" text-anchor="middle">Y</text></g>
+<g><rect class="outer" x="568" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="594.0" y="162.25" text-anchor="middle">U</text></g>
+<g><rect class="outer" x="622" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="648.0" y="162.25" text-anchor="middle">I</text></g>
+<g><rect class="outer" x="676" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="702.0" y="162.25" text-anchor="middle">O</text></g>
+<g><rect class="outer" x="730" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="756.0" y="162.25" text-anchor="middle">P</text></g>
+<g><rect class="outer" x="784" y="135.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="138.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="810.0" y="162.25" text-anchor="middle">\</text></g>
+<g><rect class="outer" x="28" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="54.0" y="216.25" text-anchor="middle">Esc</text></g>
+<g><rect class="outer" x="82" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="108.0" y="216.25" text-anchor="middle">A</text></g>
+<g><rect class="outer" x="136" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="162.0" y="216.25" text-anchor="middle">S</text></g>
+<g><rect class="outer" x="190" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="216.0" y="216.25" text-anchor="middle">D</text></g>
+<g><rect class="outer" x="244" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="270.0" y="216.25" text-anchor="middle">F</text></g>
+<g><rect class="outer" x="298" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="324.0" y="216.25" text-anchor="middle">G</text></g>
+<g><rect class="outer" x="514" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="540.0" y="216.25" text-anchor="middle">H</text></g>
+<g><rect class="outer" x="568" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="594.0" y="216.25" text-anchor="middle">J</text></g>
+<g><rect class="outer" x="622" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="648.0" y="216.25" text-anchor="middle">K</text></g>
+<g><rect class="outer" x="676" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="702.0" y="216.25" text-anchor="middle">L</text></g>
+<g><rect class="outer" x="730" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="756.0" y="216.25" text-anchor="middle">;</text></g>
+<g><rect class="outer" x="784" y="189.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="192.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="810.0" y="216.25" text-anchor="middle">&#x27;</text></g>
+<g><rect class="outer" x="28" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="54.0" y="270.25" text-anchor="middle">Magic</text></g>
+<g><rect class="outer" x="82" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="108.0" y="270.25" text-anchor="middle">Z</text></g>
+<g><rect class="outer" x="136" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="162.0" y="270.25" text-anchor="middle">X</text></g>
+<g><rect class="outer" x="190" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="216.0" y="270.25" text-anchor="middle">C</text></g>
+<g><rect class="outer" x="244" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="270.0" y="270.25" text-anchor="middle">V</text></g>
+<g><rect class="outer" x="298" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="324.0" y="270.25" text-anchor="middle">B</text></g>
+<g><rect class="outer" x="514" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="540.0" y="270.25" text-anchor="middle">N</text></g>
+<g><rect class="outer" x="568" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="594.0" y="270.25" text-anchor="middle">M</text></g>
+<g><rect class="outer" x="622" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="648.0" y="270.25" text-anchor="middle">,</text></g>
+<g><rect class="outer" x="676" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="702.0" y="270.25" text-anchor="middle">.</text></g>
+<g><rect class="outer" x="730" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="756.0" y="270.25" text-anchor="middle">/</text></g>
+<g><rect class="outer" x="784" y="243.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="246.25" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="810.0" y="270.25" text-anchor="middle">CAPS</text></g>
+<g transform="rotate(30 351 253.5)"><rect class="outer" x="284.5" y="295" width="52" height="52" rx="5"/>
+<rect class="inner" x="290.5" y="298" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="310.5" y="322" text-anchor="middle">BSPC</text></g>
+<g transform="rotate(30 351 253.5)"><rect class="outer" x="338.5" y="295" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="298" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="364.5" y="322" text-anchor="middle">SFT</text></g>
+<g transform="rotate(30 351 253.5)"><rect class="outer" x="392.5" y="295" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="298" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="418.5" y="322" text-anchor="middle">SYM</text></g>
+<g transform="rotate(-30 702 253.5)"><rect class="outer" x="446.5" y="200.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="203.5" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="472.5" y="227.5" text-anchor="middle">NUM</text></g>
+<g transform="rotate(-30 702 253.5)"><rect class="outer" x="500.5" y="200.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="506.5" y="203.5" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="526.5" y="227.5" text-anchor="middle">ENT</text></g>
+<g transform="rotate(30 351 253.5)"><rect class="outer" x="338.5" y="349.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="352.5" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="364.5" y="376.5" text-anchor="middle">NO</text></g>
+<g transform="rotate(30 351 253.5)"><rect class="outer" x="392.5" y="349.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="352.5" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="418.5" y="376.5" text-anchor="middle">SPACE</text></g>
+<g transform="rotate(-30 702 253.5)"><rect class="outer" x="446.5" y="254.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="257.5" width="40" height="40" rx="5" fill="#d9e8ff"/>
+<text class="key" x="472.5" y="281.5" text-anchor="middle">LLCK</text></g>
+<circle cx="635" cy="254.5" r="27" fill="#b51f4f" stroke="#333" stroke-width="2"/>
+<text class="label" x="635" y="259" text-anchor="middle" fill="white">trackball</text>
+<text class="label" x="28" y="462">Left half ←   •   → Right half</text>
+<text class="title" x="28" y="499">Symbol</text>
+<g><rect class="outer" x="28" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="54.0" y="563.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="108.0" y="563.25" text-anchor="middle">`</text></g>
+<g><rect class="outer" x="136" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="162.0" y="563.25" text-anchor="middle">&lt;</text></g>
+<g><rect class="outer" x="190" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="216.0" y="563.25" text-anchor="middle">&gt;</text></g>
+<g><rect class="outer" x="244" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="270.0" y="563.25" text-anchor="middle">-</text></g>
+<g><rect class="outer" x="298" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="324.0" y="563.25" text-anchor="middle">|</text></g>
+<g><rect class="outer" x="514" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="540.0" y="563.25" text-anchor="middle">^</text></g>
+<g><rect class="outer" x="568" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="594.0" y="563.25" text-anchor="middle">{</text></g>
+<g><rect class="outer" x="622" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="648.0" y="563.25" text-anchor="middle">}</text></g>
+<g><rect class="outer" x="676" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="702.0" y="563.25" text-anchor="middle">$</text></g>
+<g><rect class="outer" x="730" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="756.0" y="563.25" text-anchor="middle">ARROW</text></g>
+<g><rect class="outer" x="784" y="536.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="539.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="810.0" y="563.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="54.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="108.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="136" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="162.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="190" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="216.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="244" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="270.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="298" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="324.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="514" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="540.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="594.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="622" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="648.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="676" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="702.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="730" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="756.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="590.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="593.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="810.0" y="617.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="54.0" y="671.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="108.0" y="671.25" text-anchor="middle">!</text></g>
+<g><rect class="outer" x="136" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="162.0" y="671.25" text-anchor="middle">*</text></g>
+<g><rect class="outer" x="190" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="216.0" y="671.25" text-anchor="middle">/</text></g>
+<g><rect class="outer" x="244" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="270.0" y="671.25" text-anchor="middle">=</text></g>
+<g><rect class="outer" x="298" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="324.0" y="671.25" text-anchor="middle">&amp;</text></g>
+<g><rect class="outer" x="514" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="540.0" y="671.25" text-anchor="middle">#</text></g>
+<g><rect class="outer" x="568" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="594.0" y="671.25" text-anchor="middle">(</text></g>
+<g><rect class="outer" x="622" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="648.0" y="671.25" text-anchor="middle">)</text></g>
+<g><rect class="outer" x="676" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="702.0" y="671.25" text-anchor="middle">;</text></g>
+<g><rect class="outer" x="730" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="756.0" y="671.25" text-anchor="middle">&quot;</text></g>
+<g><rect class="outer" x="784" y="644.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="647.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="810.0" y="671.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="54.0" y="725.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="108.0" y="725.25" text-anchor="middle">~</text></g>
+<g><rect class="outer" x="136" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="162.0" y="725.25" text-anchor="middle">+</text></g>
+<g><rect class="outer" x="190" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="216.0" y="725.25" text-anchor="middle">[</text></g>
+<g><rect class="outer" x="244" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="270.0" y="725.25" text-anchor="middle">]</text></g>
+<g><rect class="outer" x="298" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="324.0" y="725.25" text-anchor="middle">%</text></g>
+<g><rect class="outer" x="514" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="540.0" y="725.25" text-anchor="middle">@</text></g>
+<g><rect class="outer" x="568" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="594.0" y="725.25" text-anchor="middle">:</text></g>
+<g><rect class="outer" x="622" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="648.0" y="725.25" text-anchor="middle">&#x27;</text></g>
+<g><rect class="outer" x="676" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="702.0" y="725.25" text-anchor="middle">_</text></g>
+<g><rect class="outer" x="730" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="756.0" y="725.25" text-anchor="middle">?</text></g>
+<g><rect class="outer" x="784" y="698.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="701.25" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="810.0" y="725.25" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 708.5)"><rect class="outer" x="284.5" y="750" width="52" height="52" rx="5"/>
+<rect class="inner" x="290.5" y="753" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="310.5" y="777" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 708.5)"><rect class="outer" x="338.5" y="750" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="753" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="364.5" y="777" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 708.5)"><rect class="outer" x="392.5" y="750" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="753" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="418.5" y="777" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 708.5)"><rect class="outer" x="446.5" y="655.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="658.5" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="472.5" y="682.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 708.5)"><rect class="outer" x="500.5" y="655.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="506.5" y="658.5" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="526.5" y="682.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 708.5)"><rect class="outer" x="338.5" y="804.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="807.5" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="364.5" y="831.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 708.5)"><rect class="outer" x="392.5" y="804.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="807.5" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="418.5" y="831.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 708.5)"><rect class="outer" x="446.5" y="709.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="712.5" width="40" height="40" rx="5" fill="#e6dcff"/>
+<text class="key" x="472.5" y="736.5" text-anchor="middle">TRNS</text></g>
+<circle cx="635" cy="709.5" r="27" fill="#b51f4f" stroke="#333" stroke-width="2"/>
+<text class="label" x="635" y="714" text-anchor="middle" fill="white">trackball</text>
+<text class="label" x="28" y="917">Left half ←   •   → Right half</text>
+<text class="title" x="28" y="954">Cursor</text>
+<g><rect class="outer" x="28" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="54.0" y="1018.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="108.0" y="1018.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="136" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="162.0" y="1018.25" text-anchor="middle">Cmd-R</text></g>
+<g><rect class="outer" x="190" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="216.0" y="1018.25" text-anchor="middle">PrevTab</text></g>
+<g><rect class="outer" x="244" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="270.0" y="1018.25" text-anchor="middle">NextTab</text></g>
+<g><rect class="outer" x="298" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="324.0" y="1018.25" text-anchor="middle">Cmd-[</text></g>
+<g><rect class="outer" x="514" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="540.0" y="1018.25" text-anchor="middle">Cmd-]</text></g>
+<g><rect class="outer" x="568" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="594.0" y="1018.25" text-anchor="middle">PgUp</text></g>
+<g><rect class="outer" x="622" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="648.0" y="1018.25" text-anchor="middle">Home</text></g>
+<g><rect class="outer" x="676" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="702.0" y="1018.25" text-anchor="middle">Up</text></g>
+<g><rect class="outer" x="730" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="756.0" y="1018.25" text-anchor="middle">End</text></g>
+<g><rect class="outer" x="784" y="991.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="994.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="810.0" y="1018.25" text-anchor="middle">Search</text></g>
+<g><rect class="outer" x="28" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="54.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="108.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="136" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="162.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="190" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="216.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="244" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="270.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="298" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="324.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="514" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="540.0" y="1072.25" text-anchor="middle">PgDn</text></g>
+<g><rect class="outer" x="568" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="594.0" y="1072.25" text-anchor="middle">Left</text></g>
+<g><rect class="outer" x="622" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="648.0" y="1072.25" text-anchor="middle">Down</text></g>
+<g><rect class="outer" x="676" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="702.0" y="1072.25" text-anchor="middle">Right</text></g>
+<g><rect class="outer" x="730" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="756.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="1045.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1048.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="810.0" y="1072.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="54.0" y="1126.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="108.0" y="1126.25" text-anchor="middle">LCTL</text></g>
+<g><rect class="outer" x="136" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="162.0" y="1126.25" text-anchor="middle">LALT</text></g>
+<g><rect class="outer" x="190" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="216.0" y="1126.25" text-anchor="middle">LGUI</text></g>
+<g><rect class="outer" x="244" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="270.0" y="1126.25" text-anchor="middle">LSFT</text></g>
+<g><rect class="outer" x="298" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="324.0" y="1126.25" text-anchor="middle">Click</text></g>
+<g><rect class="outer" x="514" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="540.0" y="1126.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="594.0" y="1126.25" text-anchor="middle">Left</text></g>
+<g><rect class="outer" x="622" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="648.0" y="1126.25" text-anchor="middle">Down</text></g>
+<g><rect class="outer" x="676" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="702.0" y="1126.25" text-anchor="middle">Right</text></g>
+<g><rect class="outer" x="730" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="756.0" y="1126.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="1099.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1102.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="810.0" y="1126.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="54.0" y="1180.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="108.0" y="1180.25" text-anchor="middle">Undo</text></g>
+<g><rect class="outer" x="136" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="162.0" y="1180.25" text-anchor="middle">Redo</text></g>
+<g><rect class="outer" x="190" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="216.0" y="1180.25" text-anchor="middle">Cmd-C</text></g>
+<g><rect class="outer" x="244" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="270.0" y="1180.25" text-anchor="middle">Cmd-V</text></g>
+<g><rect class="outer" x="298" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="324.0" y="1180.25" text-anchor="middle">Redo</text></g>
+<g><rect class="outer" x="514" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="540.0" y="1180.25" text-anchor="middle">Cmd-L</text></g>
+<g><rect class="outer" x="568" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="594.0" y="1180.25" text-anchor="middle">SelBack</text></g>
+<g><rect class="outer" x="622" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="648.0" y="1180.25" text-anchor="middle">SelWord</text></g>
+<g><rect class="outer" x="676" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="702.0" y="1180.25" text-anchor="middle">SelLine</text></g>
+<g><rect class="outer" x="730" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="756.0" y="1180.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="1153.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1156.25" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="810.0" y="1180.25" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1163.5)"><rect class="outer" x="284.5" y="1205" width="52" height="52" rx="5"/>
+<rect class="inner" x="290.5" y="1208" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="310.5" y="1232" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1163.5)"><rect class="outer" x="338.5" y="1205" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="1208" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="364.5" y="1232" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1163.5)"><rect class="outer" x="392.5" y="1205" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="1208" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="418.5" y="1232" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 1163.5)"><rect class="outer" x="446.5" y="1110.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="1113.5" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="472.5" y="1137.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 1163.5)"><rect class="outer" x="500.5" y="1110.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="506.5" y="1113.5" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="526.5" y="1137.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1163.5)"><rect class="outer" x="338.5" y="1259.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="1262.5" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="364.5" y="1286.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1163.5)"><rect class="outer" x="392.5" y="1259.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="1262.5" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="418.5" y="1286.5" text-anchor="middle">Cmd-Tab</text></g>
+<g transform="rotate(-30 702 1163.5)"><rect class="outer" x="446.5" y="1164.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="1167.5" width="40" height="40" rx="5" fill="#d9f2df"/>
+<text class="key" x="472.5" y="1191.5" text-anchor="middle">LLCK</text></g>
+<circle cx="635" cy="1164.5" r="27" fill="#b51f4f" stroke="#333" stroke-width="2"/>
+<text class="label" x="635" y="1169" text-anchor="middle" fill="white">trackball</text>
+<text class="label" x="28" y="1372">Left half ←   •   → Right half</text>
+<text class="title" x="28" y="1409">Number</text>
+<g><rect class="outer" x="28" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="54.0" y="1473.25" text-anchor="middle">Esc</text></g>
+<g><rect class="outer" x="82" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="108.0" y="1473.25" text-anchor="middle">F1</text></g>
+<g><rect class="outer" x="136" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="162.0" y="1473.25" text-anchor="middle">F2</text></g>
+<g><rect class="outer" x="190" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="216.0" y="1473.25" text-anchor="middle">F3</text></g>
+<g><rect class="outer" x="244" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="270.0" y="1473.25" text-anchor="middle">F4</text></g>
+<g><rect class="outer" x="298" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="324.0" y="1473.25" text-anchor="middle">F5</text></g>
+<g><rect class="outer" x="514" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="540.0" y="1473.25" text-anchor="middle">F6</text></g>
+<g><rect class="outer" x="568" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="594.0" y="1473.25" text-anchor="middle">F7</text></g>
+<g><rect class="outer" x="622" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="648.0" y="1473.25" text-anchor="middle">F8</text></g>
+<g><rect class="outer" x="676" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="702.0" y="1473.25" text-anchor="middle">F9</text></g>
+<g><rect class="outer" x="730" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="756.0" y="1473.25" text-anchor="middle">F10</text></g>
+<g><rect class="outer" x="784" y="1446.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1449.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="810.0" y="1473.25" text-anchor="middle">F11</text></g>
+<g><rect class="outer" x="28" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="54.0" y="1527.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="108.0" y="1527.25" text-anchor="middle">/</text></g>
+<g><rect class="outer" x="136" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="162.0" y="1527.25" text-anchor="middle">9</text></g>
+<g><rect class="outer" x="190" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="216.0" y="1527.25" text-anchor="middle">8</text></g>
+<g><rect class="outer" x="244" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="270.0" y="1527.25" text-anchor="middle">7</text></g>
+<g><rect class="outer" x="298" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="324.0" y="1527.25" text-anchor="middle">*</text></g>
+<g><rect class="outer" x="514" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="540.0" y="1527.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="594.0" y="1527.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="622" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="648.0" y="1527.25" text-anchor="middle">[</text></g>
+<g><rect class="outer" x="676" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="702.0" y="1527.25" text-anchor="middle">]</text></g>
+<g><rect class="outer" x="730" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="756.0" y="1527.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="1500.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1503.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="810.0" y="1527.25" text-anchor="middle">F12</text></g>
+<g><rect class="outer" x="28" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="54.0" y="1581.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="108.0" y="1581.25" text-anchor="middle">-</text></g>
+<g><rect class="outer" x="136" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="162.0" y="1581.25" text-anchor="middle">3</text></g>
+<g><rect class="outer" x="190" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="216.0" y="1581.25" text-anchor="middle">2</text></g>
+<g><rect class="outer" x="244" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="270.0" y="1581.25" text-anchor="middle">1</text></g>
+<g><rect class="outer" x="298" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="324.0" y="1581.25" text-anchor="middle">+</text></g>
+<g><rect class="outer" x="514" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="540.0" y="1581.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="594.0" y="1581.25" text-anchor="middle">RSFT</text></g>
+<g><rect class="outer" x="622" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="648.0" y="1581.25" text-anchor="middle">RGUI</text></g>
+<g><rect class="outer" x="676" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="702.0" y="1581.25" text-anchor="middle">RALT</text></g>
+<g><rect class="outer" x="730" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="756.0" y="1581.25" text-anchor="middle">RCTL</text></g>
+<g><rect class="outer" x="784" y="1554.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1557.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="810.0" y="1581.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="54.0" y="1635.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="108.0" y="1635.25" text-anchor="middle">X</text></g>
+<g><rect class="outer" x="136" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="162.0" y="1635.25" text-anchor="middle">6</text></g>
+<g><rect class="outer" x="190" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="216.0" y="1635.25" text-anchor="middle">5</text></g>
+<g><rect class="outer" x="244" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="270.0" y="1635.25" text-anchor="middle">4</text></g>
+<g><rect class="outer" x="298" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="324.0" y="1635.25" text-anchor="middle">%</text></g>
+<g><rect class="outer" x="514" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="540.0" y="1635.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="594.0" y="1635.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="622" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="648.0" y="1635.25" text-anchor="middle">,</text></g>
+<g><rect class="outer" x="676" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="702.0" y="1635.25" text-anchor="middle">.</text></g>
+<g><rect class="outer" x="730" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="756.0" y="1635.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="1608.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1611.25" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="810.0" y="1635.25" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1618.5)"><rect class="outer" x="284.5" y="1660" width="52" height="52" rx="5"/>
+<rect class="inner" x="290.5" y="1663" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="310.5" y="1687" text-anchor="middle">0</text></g>
+<g transform="rotate(30 351 1618.5)"><rect class="outer" x="338.5" y="1660" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="1663" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="364.5" y="1687" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1618.5)"><rect class="outer" x="392.5" y="1660" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="1663" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="418.5" y="1687" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 1618.5)"><rect class="outer" x="446.5" y="1565.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="1568.5" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="472.5" y="1592.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 1618.5)"><rect class="outer" x="500.5" y="1565.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="506.5" y="1568.5" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="526.5" y="1592.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1618.5)"><rect class="outer" x="338.5" y="1714.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="1717.5" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="364.5" y="1741.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 1618.5)"><rect class="outer" x="392.5" y="1714.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="1717.5" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="418.5" y="1741.5" text-anchor="middle">LLCK</text></g>
+<g transform="rotate(-30 702 1618.5)"><rect class="outer" x="446.5" y="1619.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="1622.5" width="40" height="40" rx="5" fill="#fff0c9"/>
+<text class="key" x="472.5" y="1646.5" text-anchor="middle">TRNS</text></g>
+<circle cx="635" cy="1619.5" r="27" fill="#b51f4f" stroke="#333" stroke-width="2"/>
+<text class="label" x="635" y="1624" text-anchor="middle" fill="white">trackball</text>
+<text class="label" x="28" y="1827">Left half ←   •   → Right half</text>
+<text class="title" x="28" y="1864">Magic</text>
+<g><rect class="outer" x="28" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="54.0" y="1928.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="108.0" y="1928.25" text-anchor="middle">RM_TOG</text></g>
+<g><rect class="outer" x="136" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="162.0" y="1928.25" text-anchor="middle">QK_KB</text></g>
+<g><rect class="outer" x="190" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="216.0" y="1928.25" text-anchor="middle">RM_NEXT</text></g>
+<g><rect class="outer" x="244" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="270.0" y="1928.25" text-anchor="middle">RGB</text></g>
+<g><rect class="outer" x="298" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="324.0" y="1928.25" text-anchor="middle">RM_VALD</text></g>
+<g><rect class="outer" x="514" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="540.0" y="1928.25" text-anchor="middle">RM_VALU</text></g>
+<g><rect class="outer" x="568" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="594.0" y="1928.25" text-anchor="middle">Red</text></g>
+<g><rect class="outer" x="622" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="648.0" y="1928.25" text-anchor="middle">Green</text></g>
+<g><rect class="outer" x="676" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="702.0" y="1928.25" text-anchor="middle">Blue</text></g>
+<g><rect class="outer" x="730" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="756.0" y="1928.25" text-anchor="middle">Purple</text></g>
+<g><rect class="outer" x="784" y="1901.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1904.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="810.0" y="1928.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="54.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="108.0" y="1982.25" text-anchor="middle">PrevTrack</text></g>
+<g><rect class="outer" x="136" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="162.0" y="1982.25" text-anchor="middle">NextTrack</text></g>
+<g><rect class="outer" x="190" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="216.0" y="1982.25" text-anchor="middle">Stop</text></g>
+<g><rect class="outer" x="244" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="270.0" y="1982.25" text-anchor="middle">Play</text></g>
+<g><rect class="outer" x="298" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="324.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="514" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="540.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="594.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="622" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="648.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="676" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="702.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="730" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="756.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="1955.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="1958.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="810.0" y="1982.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="54.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="108.0" y="2036.25" text-anchor="middle">Vol-</text></g>
+<g><rect class="outer" x="136" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="162.0" y="2036.25" text-anchor="middle">Vol+</text></g>
+<g><rect class="outer" x="190" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="216.0" y="2036.25" text-anchor="middle">Mute</text></g>
+<g><rect class="outer" x="244" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="270.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="298" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="324.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="514" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="540.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="594.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="622" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="648.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="676" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="702.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="730" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="756.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="2009.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="2012.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="810.0" y="2036.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="28" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="34" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="54.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="82" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="88" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="108.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="136" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="142" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="162.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="190" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="196" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="216.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="244" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="250" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="270.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="298" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="304" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="324.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="514" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="520" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="540.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="568" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="574" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="594.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="622" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="628" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="648.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="676" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="682" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="702.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="730" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="736" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="756.0" y="2090.25" text-anchor="middle">TRNS</text></g>
+<g><rect class="outer" x="784" y="2063.25" width="52" height="52" rx="5"/>
+<rect class="inner" x="790" y="2066.25" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="810.0" y="2090.25" text-anchor="middle">Boot</text></g>
+<g transform="rotate(30 351 2073.5)"><rect class="outer" x="284.5" y="2115" width="52" height="52" rx="5"/>
+<rect class="inner" x="290.5" y="2118" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="310.5" y="2142" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 2073.5)"><rect class="outer" x="338.5" y="2115" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="2118" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="364.5" y="2142" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 2073.5)"><rect class="outer" x="392.5" y="2115" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="2118" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="418.5" y="2142" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 2073.5)"><rect class="outer" x="446.5" y="2020.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="2023.5" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="472.5" y="2047.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 2073.5)"><rect class="outer" x="500.5" y="2020.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="506.5" y="2023.5" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="526.5" y="2047.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 2073.5)"><rect class="outer" x="338.5" y="2169.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="344.5" y="2172.5" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="364.5" y="2196.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(30 351 2073.5)"><rect class="outer" x="392.5" y="2169.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="398.5" y="2172.5" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="418.5" y="2196.5" text-anchor="middle">TRNS</text></g>
+<g transform="rotate(-30 702 2073.5)"><rect class="outer" x="446.5" y="2074.5" width="52" height="52" rx="5"/>
+<rect class="inner" x="452.5" y="2077.5" width="40" height="40" rx="5" fill="#ffe0e8"/>
+<text class="key" x="472.5" y="2101.5" text-anchor="middle">TRNS</text></g>
+<circle cx="635" cy="2074.5" r="27" fill="#b51f4f" stroke="#333" stroke-width="2"/>
+<text class="label" x="635" y="2079" text-anchor="middle" fill="white">trackball</text>
+<text class="label" x="28" y="2282">Left half ←   •   → Right half</text>
 </svg>
