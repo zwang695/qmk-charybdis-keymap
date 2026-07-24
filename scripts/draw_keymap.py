@@ -5,7 +5,7 @@ from html import escape
 from pathlib import Path
 
 BASE = """
-Drag DPI- DPI+ Btn2 Btn1 Cmd-C Cmd-V Left Right + - NO
++ 1 2 3 4 5 6 7 8 9 0 -
 Tab Q W E R T Y U I O P \\
 Esc A S D F G H J K L ; '
 Magic Z X C V B N M , . / CAPS

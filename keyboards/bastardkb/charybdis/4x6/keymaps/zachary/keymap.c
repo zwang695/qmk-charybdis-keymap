@@ -52,7 +52,7 @@ uint16_t get_flow_tap_term(uint16_t keycode, keyrecord_t *record, uint16_t prev_
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [L_BASE] = LAYOUT(
-        DRG_TOG, DPI_RMOD, DPI_MOD, MS_BTN2, MS_BTN1, LCMD(KC_C),       LCMD(KC_V), KC_LEFT, KC_RIGHT, KC_PLUS, KC_MINUS, KC_NO,
+        KC_PLUS, KC_1, KC_2, KC_3, KC_4, KC_5,                          KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS,
         KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T,                           KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLS,
         KC_ESC, CTL_A, OPT_S, CMD_D, SYM_F, KC_G,                       KC_H, SYM_J, CMD_K, OPT_L, CTL_SCLN, KC_QUOT,
         MO(L_MAGIC), KC_Z, KC_X, KC_C, KC_V, KC_B,                      KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, CW_TOGG,
