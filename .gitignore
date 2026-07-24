@@ -1,0 +1,3 @@
+qmk/
+*.uf2
+.build/
