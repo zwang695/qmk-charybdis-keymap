@@ -64,7 +64,7 @@ def text_element(x: float, y: float, value: str, angle: float = 0, pivot: tuple[
     pivot = pivot or (x, y)
     transform = f' transform="rotate({angle} {pivot[0]} {pivot[1]})"' if angle else ""
     size = 8 if len(value) > 5 else 10
-    return f'<text x="{x}" y="{y}" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="{size}" font-weight="600" fill="#172033"{transform}>{escape(value)}</text>'
+    return f'<text x="{x}" y="{y}" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="{size}" font-weight="600" fill="#172033"{transform}>{escape(value)}</text>'
 
 
 def render(output: Path) -> None:
