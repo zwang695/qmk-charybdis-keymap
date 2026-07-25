@@ -10,7 +10,7 @@ LAYERS = {
 Tab Q W E R T Y U I O P \\
 Esc A/CTL S/OPT D/CMD F/SYM G H J/SYM K/CMD L/OPT ;/CTL '
 Magic Z X C V B N M , . / CAPS
-BSPC SFT SYM NUM ENT NO SPACE LLCK
+BSPC/CUR SFT NO ENT SPACE/NUM NO NO NO
 """,
     "Symbol": """
 ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽

@@ -11,8 +11,6 @@
 enum layers { L_BASE, L_CURSOR, L_SYM, L_NUM, L_MAGIC };
 enum custom_keycodes { ARROW = SAFE_RANGE, SRCHSEL, RGB_SLD, HSV_0_0_255, HSV_0_255_255, HSV_74_255_255, HSV_169_255_255 };
 
-#define LOWER MO(L_SYM)
-#define RAISE MO(L_NUM)
 #define CTL_A LCTL_T(KC_A)
 #define OPT_S LALT_T(KC_S)
 #define CMD_D LGUI_T(KC_D)
@@ -56,8 +54,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T,                           KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLS,
         KC_ESC, CTL_A, OPT_S, CMD_D, SYM_F, KC_G,                       KC_H, SYM_J, CMD_K, OPT_L, CTL_SCLN, KC_QUOT,
         MO(L_MAGIC), KC_Z, KC_X, KC_C, KC_V, KC_B,                      KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, CW_TOGG,
-                                      LT(L_CURSOR, KC_BSPC), KC_LSFT, LOWER, RAISE, KC_ENTER,
-                                      KC_NO, LT(L_NUM, KC_SPACE), QK_LLCK
+                                      LT(L_CURSOR, KC_BSPC), KC_LSFT, KC_NO, KC_ENTER, LT(L_NUM, KC_SPACE),
+                                      KC_NO, KC_NO, KC_NO
     ),
     [L_SYM] = LAYOUT(
         _______, KC_GRV, KC_LABK, KC_RABK, KC_MINS, KC_PIPE,             KC_CIRC, KC_LCBR, KC_RCBR, KC_DLR, ARROW, _______,

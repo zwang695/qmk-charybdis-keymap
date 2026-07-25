@@ -3750,14 +3750,14 @@
 <text x="702.0" y="195.75" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033">.</text>
 <text x="756.0" y="209.25" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033">/</text>
 <text x="810.0" y="209.25" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033">CAPS</text>
-<text x="310.5" y="297" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">BSPC</text>
+<text x="310.5" y="297" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="8" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">BSPC/CUR</text>
 <text x="364.5" y="297" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">SFT</text>
-<text x="418.5" y="297" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">SYM</text>
-<text x="472.5" y="202.5" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(-30 702 229.5)">NUM</text>
-<text x="526.5" y="202.5" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(-30 702 229.5)">ENT</text>
+<text x="418.5" y="297" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">NO</text>
+<text x="472.5" y="202.5" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(-30 702 229.5)">ENT</text>
+<text x="526.5" y="202.5" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="8" font-weight="600" fill="#172033" transform="rotate(-30 702 229.5)">SPACE/NUM</text>
 <text x="364.5" y="351" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">NO</text>
-<text x="418.5" y="351" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">SPACE</text>
-<text x="472.5" y="256.5" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(-30 702 229.5)">LLCK</text>
+<text x="418.5" y="351" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(30 351 229.5)">NO</text>
+<text x="472.5" y="256.5" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#172033" transform="rotate(-30 702 229.5)">NO</text>
 </g>
 <text x="20" y="420" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" fill="#64748b">Zachary · Charybdis 4x6 · Base</text>
 </g>
