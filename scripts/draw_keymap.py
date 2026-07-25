@@ -77,7 +77,18 @@ def render(output: Path) -> None:
     overlay: list[str] = []
     left_x = [28, 82, 136, 190, 244, 298]
     right_x = [514, 568, 622, 676, 730, 784]
-    row_y = [21.25, 75.25, 129.25, 183.25]
+    left_y = [
+        [47.25, 47.25, 33.75, 27, 33.75, 40.5],
+        [101.25, 101.25, 87.75, 81, 87.75, 94.5],
+        [155.25, 155.25, 141.75, 135, 141.75, 148.5],
+        [209.25, 209.25, 195.75, 189, 195.75, 202.5],
+    ]
+    right_y = [
+        [40.5, 33.75, 27, 33.75, 47.25, 47.25],
+        [94.5, 87.75, 81, 87.75, 101.25, 101.25],
+        [148.5, 141.75, 135, 141.75, 155.25, 155.25],
+        [202.5, 195.75, 189, 195.75, 209.25, 209.25],
+    ]
 
     for layer_index, (layer_name, layer_text) in enumerate(LAYERS.items()):
         offset = layer_index * section_height
@@ -89,19 +100,19 @@ def render(output: Path) -> None:
         for index, key in enumerate(keys[:48]):
             row, col = divmod(index, 12)
             x = (left_x if col < 6 else right_x)[col if col < 6 else col - 6] + KEY_W / 2
-            y = row_y[row] + 29
+            y = (left_y if col < 6 else right_y)[row][col if col < 6 else col - 6]
             overlay.append(text_element(x, y, key))
 
         thumbs = keys[48:]
         left_pivot = (351, 229.5)
         right_pivot = (702, 229.5)
         for key, x in zip(thumbs[:3], [284.5, 338.5, 392.5]):
-            overlay.append(text_element(x + 26, 271 + 29, key, 30, left_pivot))
+            overlay.append(text_element(x + 26, 297, key, 30, left_pivot))
         for key, x in zip(thumbs[3:5], [446.5, 500.5]):
-            overlay.append(text_element(x + 26, 176.5 + 29, key, -30, right_pivot))
+            overlay.append(text_element(x + 26, 202.5, key, -30, right_pivot))
         for key, x in zip(thumbs[5:7], [338.5, 392.5]):
-            overlay.append(text_element(x + 26, 325 + 29, key, 30, left_pivot))
-        overlay.append(text_element(446.5 + 26, 230.5 + 29, thumbs[7], -30, right_pivot))
+            overlay.append(text_element(x + 26, 351, key, 30, left_pivot))
+        overlay.append(text_element(446.5 + 26, 256.5, thumbs[7], -30, right_pivot))
         overlay.append('</g>')
         overlay.append(f'<text x="20" y="420" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" fill="#64748b">Zachary · Charybdis 4x6 · {escape(layer_name)}</text>')
         overlay.append('</g>')
