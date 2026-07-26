@@ -10,7 +10,7 @@ LAYERS = {
 Tab Q W E R T Y U I O P \\
 Esc A/CTL S/OPT D/CMD F/SYM G H J/SYM K/CMD L/OPT ;/CTL '
 Magic Z X C V B N M , . / CAPS
-BSPC/CUR SFT NO ENT SPACE/NUM NO NO NO
+BSPC/CUR SFT NO ENT SPACE/NUM NO Mouse Drag
 """,
     "Symbol": """
 ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽ ▽
@@ -39,6 +39,13 @@ Esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11
 ▽ VolDown VolUp Mute ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙
 ▽ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ QK-BOOT
 ▽ ▙ ▙ ▙ ▙ ▙ ▙ ▙
+""",
+    "Mouse": """
+▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙
+▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙
+▙ CPI- CPI+ RightClick LeftClick ▙ ▙ ▙ ▙ ▙ ▙ ▙
+▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙ ▙
+▙ ▙ ▙ ▙ ▙ ▙ Mouse Drag
 """,
 }
 
@@ -70,6 +77,7 @@ def text_element(x: float, y: float, value: str, angle: float = 0, pivot: tuple[
 def render(output: Path) -> None:
     template = (output.parent / "physical_layout.svg").read_text(encoding="utf-8")
     template_body = template[template.index(">") + 1 : template.rindex("</svg>")]
+    clean_template_body = "\n".join(line.rstrip() for line in template_body.splitlines())
     section_height = 455
     height = section_height * len(LAYERS) - 20
     template = template.replace("height='435.35477246198917px'", f"height='{height}px'")
@@ -93,7 +101,7 @@ def render(output: Path) -> None:
     for layer_index, (layer_name, layer_text) in enumerate(LAYERS.items()):
         offset = layer_index * section_height
         overlay.append(f'<g transform="translate(0,{offset})">')
-        overlay.append(template_body)
+        overlay.append(template_body if layer_index < 5 else clean_template_body)
         overlay.append(f'<g transform="translate(15,15)" aria-label="Zachary Charybdis {layer_name} layer">')
         keys = labels(layer_text)
 

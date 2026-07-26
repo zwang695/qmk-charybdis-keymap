@@ -8,7 +8,7 @@
 
 #include QMK_KEYBOARD_H
 
-enum layers { L_BASE, L_CURSOR, L_SYM, L_NUM, L_MAGIC };
+enum layers { L_BASE, L_CURSOR, L_SYM, L_NUM, L_MAGIC, L_MOUSE };
 enum custom_keycodes { ARROW = SAFE_RANGE, SRCHSEL, RGB_SLD, HSV_0_0_255, HSV_0_255_255, HSV_74_255_255, HSV_169_255_255 };
 
 #define CTL_A LCTL_T(KC_A)
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC, CTL_A, OPT_S, CMD_D, SYM_F, KC_G,                       KC_H, SYM_J, CMD_K, OPT_L, CTL_SCLN, KC_QUOT,
         MO(L_MAGIC), KC_Z, KC_X, KC_C, KC_V, KC_B,                      KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, CW_TOGG,
                                       LT(L_CURSOR, KC_BSPC), KC_LSFT, KC_NO, KC_ENTER, LT(L_NUM, KC_SPACE),
-                                      KC_NO, KC_NO, KC_NO
+                                      KC_NO, MO(L_MOUSE), DRGSCRL
     ),
     [L_SYM] = LAYOUT(
         _______, KC_GRV, KC_LABK, KC_RABK, KC_MINS, KC_PIPE,             KC_CIRC, KC_LCBR, KC_RCBR, KC_DLR, ARROW, _______,
@@ -88,6 +88,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______,             _______, _______, _______, _______, _______, QK_BOOT,
                                       _______, _______, _______, _______, _______,
                                       _______, _______, _______
+    ),
+    [L_MOUSE] = LAYOUT(
+        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+        KC_NO, DPI_RMOD, DPI_MOD, MS_BTN2, MS_BTN1, KC_NO,               KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+                                      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+                                      KC_NO, _______, _______
     ),
 };
 
